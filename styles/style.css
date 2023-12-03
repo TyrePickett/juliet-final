@@ -1,0 +1,72 @@
+html{
+    background-color: lightgray;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    display: inline-block;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    color: floralwhite;
+    font-size: 30px;
+    position: relative;
+
+}
+.link-bar{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+
+}
+.link-bar li{
+    display: inline;
+    margin-right: 50px;
+    /*margin-bottom: 0;*/
+
+}
+.link-bar a{
+    text-decoration: none;
+    color: floralwhite;
+}
+#container{
+    padding: 5px;
+    margin: 5px;
+}
+#form-box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+#message{
+    font-size: 30px;
+
+}
+img {
+    height: 600px;
+}
+#example-box{
+    background-color: white;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-box input{
+    position: absolute;
+    margin-bottom: 20px;
+    left: 230px;
+}
+
+.fake-links{
+    text-align: center;
+}
+.fake-links li{
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 10px;
+
+
+}
